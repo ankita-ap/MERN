@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black ;
+            background-color: khaki;
+            height: 3444px;
+        }
+        .box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+        }
+        #box1{
+            /* position: static(default), absolute, relative, sticky, fixed; (CSS Positions) */
+            position: fixed;
+            right: 44px;
+            bottom: 3px;
+            /* top: 34px;
+            left: 34px; */
+            text-align: center;
+            font-family: cursive ;
+            font-weight: bolder;
+            /* position: fixed; means the position of the box will remain fixed even on scrolling.  */
+
+        }
+        #box2{
+            position: relative;
+            left: 34px;
+            top: 34px;
+            /* position: relative; means that the box will move relative to its normal position.  */
+        }
+        #box3{
+            position: absolute;
+            left: 34px;
+            top: 34px;
+            /* position: absolute; means movement of box relative to the parent's position */
+        }
+        #box4{
+            position: sticky;
+            top: 3px;
+            /* position: sticky; very similar to fixed. stays at the same position as specified even when scrolled.  */
+        }
+        #tbox{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Chat with us!
+            <div>
+                <textarea name="Chat" id="tbox" cols="15" rows="7">Type...</textarea>
+            </div>
+        </div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus">Bonus</label>
+        <div>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br>
+        <label for="eligible">Are you eligible?</label>
+        <div>
+            <!-- Already checked check box, by using checked attribute at the end of the input line.  -->
+            <input type="checkbox" name="myEligibility" id="eligible" checked>
+        </div>
+        <br>
+        <div>
+            Gender: <br> <label for="male">Male</label><input type="radio" name="myGender" id="male"><br> <label
+                for="female">Female</label><input type="radio" name="myGender" id="female"><br> <label
+                for="others">Others</label><input type="radio" name="myGender" id="others"><br> <label for="atr">Prefer
+                not to say</label><input type="radio" name="myGender" id="atr">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="car">Car</label>
+        <div>
+            <select name="myCar" id="car">
+                <option value="ck" selected>Choose car</option>
+                <option value="ind">Indica</option>
+                <option value="swfdz">Swift Dzire</option>
+                <option value="cel">Celerio</option>
+                <option value="inv">Innova</option>
+                <option value="none">None</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+
+            <input type="reset" value="Reset Form">
+        </div>
+    </form>
+
+</body>
+
+</html>
