@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.form-header {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-button {
+  background-color: #2979ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="form-container">
+  <h2 class="form-header">Registration Form</h2>
+
+  <div class="form-group">
+    <label for="first-name" class="form-label">First Name</label>
+    <input type="text" class="form-input" id="first-name">
+  </div>
+
+  <div class="form-group">
+    <label for="last-name" class="form-label">Last Name</label>
+    <input type="text" class="form-input" id="last-name">
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-input" id="email">
+  </div>
+
+  <div class="form-group">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-input" id="password">
+  </div>
+
+  <div class="form-group">
+    <label for="confirm-password" class="form-label">Confirm Password</label>
+    <input type="password" class="form-input" id="confirm-password">
+  </div>
+
+  <button type="submit" class="form-button">Register</button>
+</div>
+</body>
+</html>

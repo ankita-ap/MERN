@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 596px;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        #cool{
+            text-align: right;
+        }
+
+        .wid{
+            width: 428px;
+        }
+    </style>
+</head>
+<center>
+
+    <body>
+        <center>
+            <h2>Registration form</h2>
+        </center>
+        <table>
+            <form>
+                <tr>
+                    <td>
+                        <label for="fname">
+                            <strong>
+                                <center>First Name</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="text" id="fname" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="lname">
+                            <strong>
+                                <center>Last Name</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="text" id="lname" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">
+                            <strong>
+                                <center>Email</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="email" id="email" class="wid"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">
+                            <strong>
+                                <center>Password</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="password" id="password" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="repassword">
+                            <strong>
+                                <center>Re-enter Password</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="password" id="repassword" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">
+                            <strong>
+                                <center>Gender</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="radio" name="" id="">Male<br><hr>
+                        <input type="radio" name="" id="">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="age">
+                            <strong>
+                                <center>Age</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="number" id="age" class="wid"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pno">
+                            <strong>
+                                <center>Phone Number</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="tel" id="pno" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">
+                            <strong>
+                                <center>Address</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><textarea name="" id="" cols="56" rows="4"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="state">
+                            <strong>
+                                <center>State</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="text" id="state" class="wid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="country">
+                            <strong>
+                                <center>Country</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><select name="country" id="country">
+                            <option value="I">India</option>
+                            <option value="U">United States of America</option>
+                            <option value="Uk">United Kingdom</option>
+                            <option value="G">Germany</option>
+                            <option value="J">Japan</option>
+                            <option value="d" selected>-select your country-</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td><label for="language">
+                            <strong>
+                                <center>Languages Known</center>
+                            </strong>
+                        </label>
+                    </td>
+                    <td><input type="checkbox" name="eng">English <input type="checkbox" name="kan">Kannada <input
+                            type="checkbox" name="hin">Hindi <input type="checkbox" name="tel">Telugu
+                    </td>
+                </tr>
+                <tr><td colspan="2">
+                    <input type="checkbox" name="dec" checked>Hereby I declare all the given details are true
+                </td>
+            </tr>
+            <tr id="cool">
+                <td colspan="2">
+                    Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website
+                </td>
+            </tr>
+                    
+
+        </table>
+        <br>
+        <center><input type="button" value="Register"></center>
+        </form>
+
+    </body>
+</center>
+
+</html>
