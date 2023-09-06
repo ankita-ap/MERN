@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hoverable Side Navigation</title>
+
+
+
+    <style>
+        .pos {
+            text-align: center;
+
+        }
+
+        .sidehoverbar a {
+
+            position: absolute;
+            font-size: 22px;
+            text-decoration: none;
+            Color: white;
+            padding: 10px;
+            border-radius: 0px 10px 10px 0px;
+            left: -140px;
+            transition: 0.5s;
+
+        }
+
+        .sidehoverbar a:hover {
+            left: 0px;
+            opacity: 1;
+            background-color: rgb(33, 123, 121);
+        }
+
+
+        .Home {
+            background-color: rgba(0, 128, 0, 0.767);
+            top: 50px;
+            width: 180px;
+            height: 50px;
+        }
+
+        .Dashboard {
+            background-color: rgb(45, 150, 231);
+            top: 140px;
+            width: 180px;
+            height: 50px;
+        }
+
+        .Contact {
+            background-color: rgb(242, 60, 60);
+            top: 230px;
+            width: 180px;
+            height: 50px;
+        }
+
+        .Login {
+            background-color: gray;
+            top: 320px;
+            width: 180px;
+            height: 50px;
+        }
+
+
+        .hoverable-topic {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pos">
+        <h1>Hoverable Sidenav buttons</h1>
+    </div>
+
+
+    <div class="hoverable-topic">
+        <p>
+            Hover over the buttons in the left side navigation to open them.
+        </p>
+
+
+    </div>
+
+
+    <div class="sidehoverbar">
+        <a href="#" class="Home">
+            Home
+
+        </a>
+
+        <a href="#" class="Dashboard">
+            Dashboard
+
+        </a>
+
+        <a href="#" class="Contact">
+            Contact us
+
+        </a>
+
+        <a href="#" class="Login">
+            Login/Sign up
+
+        </a>
+
+    </div>
+</body>
+
+</html>
